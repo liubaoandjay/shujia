@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.list{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    li{
+        width: 33%;
+        height: 30px;
+        line-height: 30px;
+        margin: 0 2%;
+        text-align: center;
+    }
+}
+.active{
+    color: orange;
+}
